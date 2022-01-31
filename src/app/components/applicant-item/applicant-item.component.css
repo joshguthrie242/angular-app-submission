@@ -1,0 +1,16 @@
+.applicant{
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.applicant.goodStanding {
+    border-left: 5px solid rgb(21, 21, 161);
+}
+
+.applicant h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

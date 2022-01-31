@@ -1,0 +1,5 @@
+<div [ngClass]="{goodStanding: applicant.goodStanding}" class="applicant" (click)="onToggle(applicant)" >    
+    <h3>{{applicant.company}} <fa-icon (click)="onDelete(applicant)" [ngStyle]="{'color':'red'}" [icon]="faTimes"></fa-icon></h3>
+    <p>{{applicant.firstName}} {{applicant.lastName}}</p>
+</div>  
+ 

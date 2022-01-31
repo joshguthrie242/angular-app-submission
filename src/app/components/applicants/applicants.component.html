@@ -1,0 +1,8 @@
+<app-add-applicant (onAddApplicant)="addApplicant($event)">
+
+</app-add-applicant>
+<app-applicant-item 
+*ngFor="let applicant of applicants" [applicant]="applicant"
+   (onDeleteEvent)="deleteApplicant(applicant)"
+   (onToggleEvent)="toggleApplicant(applicant)">
+</app-applicant-item>`

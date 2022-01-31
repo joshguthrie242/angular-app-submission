@@ -1,0 +1,39 @@
+{
+  "applicants": [
+    {
+      "id": 1,
+      "firstName": "Saras",
+      "lastName": "Saltys",
+      "company": "West Coast Builders",
+      "goodStanding": true
+    },
+    {
+      "id": 2,
+      "firstName": "Scott",
+      "lastName": "Salty",
+      "company": "West Coast Builders",
+      "goodStanding": true
+    },
+    {
+      "id": 4,
+      "firstName": "Bill",
+      "lastName": "Salty",
+      "company": "West Coast Builders",
+      "goodStanding": true
+    },
+    {
+      "id": 5,
+      "firstName": "Leon",
+      "lastName": "Salty",
+      "company": "West Coast Builders",
+      "goodStanding": false
+    },
+    {
+      "firstName": "Josh",
+      "lastName": "Guthrie",
+      "company": "Guthrie General Contracting",
+      "goodStanding": false,
+      "id": 6
+    }
+  ]
+}
